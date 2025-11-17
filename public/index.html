@@ -1,89 +1,248 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tikun Olam - Sistema de IA Etica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="tree-logo">
+                <svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Tree of Life Simplified -->
+                    <circle cx="100" cy="30" r="15" class="sefira keter" />
+                    <circle cx="70" cy="80" r="13" class="sefira binah" />
+                    <circle cx="130" cy="80" r="13" class="sefira chochmah" />
+                    <circle cx="70" cy="140" r="13" class="sefira gevurah" />
+                    <circle cx="130" cy="140" r="13" class="sefira chesed" />
+                    <circle cx="100" cy="110" r="14" class="sefira tiferet" />
+                    <circle cx="70" cy="180" r="12" class="sefira hod" />
+                    <circle cx="130" cy="180" r="12" class="sefira netzach" />
+                    <circle cx="100" cy="220" r="13" class="sefira yesod" />
+                    <circle cx="100" cy="270" r="15" class="sefira malchut" />
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/12.6.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/12.6.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/12.6.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/12.6.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/12.6.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/12.6.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/12.6.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/12.6.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/12.6.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/12.6.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+                    <!-- Paths connecting Sefirot -->
+                    <path d="M 100 30 L 70 80 M 100 30 L 130 80 M 70 80 L 100 110 M 130 80 L 100 110 M 70 80 L 70 140 M 130 80 L 130 140 M 70 140 L 100 110 M 130 140 L 100 110 M 70 140 L 70 180 M 130 140 L 130 180 M 70 180 L 100 220 M 130 180 L 100 220 M 100 220 L 100 270" stroke="#4a5568" stroke-width="1" fill="none" opacity="0.3"/>
+                </svg>
+            </div>
+            <h2 class="loading-title">Tikun Olam</h2>
+            <p class="loading-subtitle">Reparacion del Mundo</p>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    <!-- Auth Screen -->
+    <div id="auth-screen" class="auth-screen hidden">
+        <div class="auth-container">
+            <div class="auth-left">
+                <div class="auth-branding">
+                    <h1 class="brand-title">Tikun Olam</h1>
+                    <p class="brand-subtitle">Sistema de IA Etica basado en el Arbol de la Vida</p>
+                    <div class="sefirot-preview">
+                        <div class="sefira-badge">10 Sefirot</div>
+                        <div class="sefira-badge">AI Alignment</div>
+                        <div class="sefira-badge">Ethical Framework</div>
+                    </div>
+                </div>
+            </div>
+            <div class="auth-right">
+                <div class="auth-box">
+                    <h2 class="auth-title">Bienvenido</h2>
+                    <p class="auth-description">Ingresa para acceder al sistema de IA etica</p>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+                    <div id="auth-error" class="auth-error hidden"></div>
+
+                    <form id="email-auth-form" class="auth-form">
+                        <div class="form-group">
+                            <label for="email">Correo Electronico</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contrasena</label>
+                            <input type="password" id="password" name="password" required placeholder="••••••••">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+                    </form>
+
+                    <div class="auth-divider">
+                        <span>o continua con</span>
+                    </div>
+
+                    <button id="google-signin-btn" class="btn btn-google">
+                        <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+                            <path fill="none" d="M0 0h48v48H0z"/>
+                        </svg>
+                        Continuar con Google
+                    </button>
+
+                    <p class="auth-footer">
+                        No tienes cuenta? <a href="#" id="signup-link">Registrate</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="main-app" class="main-app hidden">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="header-left">
+                    <h1 class="app-title">Tikun Olam</h1>
+                    <span class="app-subtitle">Reparacion del Mundo</span>
+                </div>
+                <div class="header-right">
+                    <div class="user-info">
+                        <img id="user-avatar" class="user-avatar" src="" alt="User">
+                        <span id="user-name" class="user-name"></span>
+                    </div>
+                    <button id="signout-btn" class="btn btn-secondary">Cerrar Sesion</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <div class="container">
+                <!-- Action Input Section -->
+                <section class="input-section">
+                    <h2 class="section-title">Nueva Accion para Tikun Olam</h2>
+                    <form id="action-form" class="action-form">
+                        <div class="form-group">
+                            <label for="action-input">Accion</label>
+                            <textarea id="action-input" name="action" rows="3" required placeholder="Describe la accion que deseas evaluar (ej: Implementar sistema de IA educativa en comunidades rurales)"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="context-input">Contexto</label>
+                                <textarea id="context-input" name="context" rows="2" placeholder="Contexto de la accion"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="outcome-input">Resultado Esperado</label>
+                                <textarea id="outcome-input" name="outcome" rows="2" placeholder="Que se espera lograr"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large" id="process-btn">
+                            <span>Procesar a traves del Arbol de Sefirot</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 10h12m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </section>
+
+                <!-- Processing Section -->
+                <section id="processing-section" class="processing-section hidden">
+                    <h2 class="section-title">Procesando a traves de las Sefirot</h2>
+                    <div class="sefirot-progress">
+                        <div class="sefira-step" data-sefira="keter">
+                            <div class="step-icon">1</div>
+                            <div class="step-info">
+                                <h3>Keter</h3>
+                                <p>Corona - Voluntad Divina</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="chochmah">
+                            <div class="step-icon">2</div>
+                            <div class="step-info">
+                                <h3>Chochmah</h3>
+                                <p>Sabiduria - Razonamiento</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="binah">
+                            <div class="step-icon">3</div>
+                            <div class="step-info">
+                                <h3>Binah</h3>
+                                <p>Entendimiento - Contexto</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="chesed">
+                            <div class="step-icon">4</div>
+                            <div class="step-info">
+                                <h3>Chesed</h3>
+                                <p>Misericordia - Jupiter</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="gevurah">
+                            <div class="step-icon">5</div>
+                            <div class="step-info">
+                                <h3>Gevurah</h3>
+                                <p>Severidad - Marte</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="tiferet">
+                            <div class="step-icon">6</div>
+                            <div class="step-info">
+                                <h3>Tiferet</h3>
+                                <p>Belleza - Sol</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="netzach">
+                            <div class="step-icon">7</div>
+                            <div class="step-info">
+                                <h3>Netzach</h3>
+                                <p>Victoria - Venus</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="hod">
+                            <div class="step-icon">8</div>
+                            <div class="step-info">
+                                <h3>Hod</h3>
+                                <p>Esplendor - Mercurio</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="yesod">
+                            <div class="step-icon">9</div>
+                            <div class="step-info">
+                                <h3>Yesod</h3>
+                                <p>Fundamento - Luna</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                        <div class="sefira-step" data-sefira="malchut">
+                            <div class="step-icon">10</div>
+                            <div class="step-info">
+                                <h3>Malchut</h3>
+                                <p>Reino - Saturno</p>
+                            </div>
+                            <div class="step-status">⏳</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Results Section -->
+                <section id="results-section" class="results-section hidden">
+                    <h2 class="section-title">Resultados del Analisis</h2>
+                    <div id="results-content" class="results-content">
+                        <!-- Results will be populated here -->
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Firebase SDKs -->
+    <script type="module" src="app.js"></script>
+</body>
 </html>
