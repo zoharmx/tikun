@@ -1,0 +1,39 @@
+[debug] [2025-11-17T05:37:09.361Z] ----------------------------------------------------------------------
+[debug] [2025-11-17T05:37:09.370Z] Command:       C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2025-11-17T05:37:09.371Z] CLI Version:   14.25.0
+[debug] [2025-11-17T05:37:09.372Z] Platform:      win32
+[debug] [2025-11-17T05:37:09.372Z] Node Version:  v20.19.5
+[debug] [2025-11-17T05:37:09.373Z] Time:          Sun Nov 16 2025 23:37:09 GMT-0600 (hora estándar central)
+[debug] [2025-11-17T05:37:09.374Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-17T05:37:11.956Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-17T05:37:11.958Z] > authorizing via signed-in user (aleftiendaenlinea@gmail.com)
+[debug] [2025-11-17T05:37:11.959Z] [iam] checking project proyecto-tikun for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-11-17T05:37:12.001Z] Checked if tokens are valid: false, expires at: 1763140374269
+[debug] [2025-11-17T05:37:12.002Z] Checked if tokens are valid: false, expires at: 1763140374269
+[debug] [2025-11-17T05:37:12.003Z] > refreshing access token with scopes: []
+[debug] [2025-11-17T05:37:12.008Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-17T05:37:12.009Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-17T05:37:12.844Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-17T05:37:12.845Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-17T05:37:13.045Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-tikun:testIamPermissions [none]
+[debug] [2025-11-17T05:37:13.045Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-tikun:testIamPermissions x-goog-quota-user=projects/proyecto-tikun
+[debug] [2025-11-17T05:37:13.046Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-tikun:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-11-17T05:37:13.470Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-tikun:testIamPermissions 200
+[debug] [2025-11-17T05:37:13.471Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-tikun:testIamPermissions {}
+[debug] [2025-11-17T05:37:13.471Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project proyecto-tikun:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2025-11-17T05:37:13.473Z] Checked if tokens are valid: true, expires at: 1763361431846
+[debug] [2025-11-17T05:37:13.474Z] Checked if tokens are valid: true, expires at: 1763361431846
+[debug] [2025-11-17T05:37:13.475Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-tikun [none]
+[debug] [2025-11-17T05:37:13.786Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-tikun 403
+[debug] [2025-11-17T05:37:13.786Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-tikun {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-11-17T05:37:13.788Z] Request to https://firebase.googleapis.com/v1beta1/projects/proyecto-tikun had HTTP Error: 403, The caller does not have permission
+[debug] [2025-11-17T05:37:13.943Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/proyecto-tikun had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\jesus\AppData\Local\nvm\v20.19.5\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\jesus\AppData\Local\nvm\v20.19.5\node_modules\firebase-tools\lib\apiv2.js:322:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project proyecto-tikun. Please make sure the project exists and your account has permission to access it.

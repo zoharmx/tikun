@@ -1,0 +1,189 @@
+================================================================================
+  TIKUN OLAM - DESPLIEGUE RAPIDO
+  Sigue estos pasos EN ORDEN
+================================================================================
+
+PASO 1: Abrir Terminal
+-----------------------
+Abre PowerShell o CMD en Windows
+
+PASO 2: Ir al Directorio
+-------------------------
+cd C:\Users\jesus\proyecto-tikun\firebase-web
+
+PASO 3: Login a Firebase
+-------------------------
+firebase login
+
+Se abrira tu navegador. Inicia sesion con tu cuenta de Google.
+
+PASO 4: Configurar API Key de Gemini
+-------------------------------------
+Primero, obtén tu API key:
+1. Ve a: https://makersuite.google.com/app/apikey
+2. Click en "Create API Key" o usa una existente
+3. Copia la key (empieza con "AIza...")
+
+Luego, configurala:
+
+firebase functions:config:set gemini.api_key="PEGA_TU_KEY_AQUI"
+
+(Reemplaza PEGA_TU_KEY_AQUI con tu key real, manteniendo las comillas)
+
+PASO 5: Habilitar Authentication en Firebase Console
+-----------------------------------------------------
+1. Ve a: https://console.firebase.google.com/
+2. Selecciona el proyecto "proyecto-tikun"
+3. Click en "Authentication" en el menu lateral izquierdo
+4. Click en "Get started"
+5. Habilita estos metodos de inicio de sesion:
+
+   a) Email/Password:
+      - Click en "Email/Password"
+      - Activa el switch "Enable"
+      - Click en "Save"
+
+   b) Google:
+      - Click en "Google"
+      - Activa el switch "Enable"
+      - Click en "Save"
+
+PASO 6: Actualizar a Plan Blaze (IMPORTANTE para Cloud Functions)
+------------------------------------------------------------------
+Las Cloud Functions requieren el plan Blaze (pago por uso).
+El plan tiene una capa gratuita MUY generosa:
+- 2 millones de invocaciones gratis/mes
+- 400,000 GB-segundos gratis/mes
+- Solo pagas si excedes estos limites
+
+Para actualizar:
+1. En Firebase Console: https://console.firebase.google.com/
+2. Click en el icono de engranaje (Settings) → "Usage and billing"
+3. Click en "Details & settings"
+4. Click en "Modify plan"
+5. Selecciona "Blaze Plan"
+6. Completa la informacion de facturacion
+7. Click en "Purchase"
+
+IMPORTANTE: Si no quieres usar el plan Blaze ahora, puedes desplegar
+solo el frontend (sin Cloud Functions) con:
+
+firebase deploy --only hosting
+
+El frontend funcionara con datos mock para demostracion.
+
+PASO 7A: Despliegue Completo (Frontend + Backend)
+--------------------------------------------------
+Si ya tienes el plan Blaze configurado:
+
+firebase deploy
+
+Esto tomara 3-5 minutos.
+
+PASO 7B: Despliegue Solo Frontend (Sin Cloud Functions)
+--------------------------------------------------------
+Si prefieres no usar Cloud Functions por ahora:
+
+firebase deploy --only hosting
+
+Esto tomara 1 minuto.
+
+PASO 8: Ver tu Aplicacion
+--------------------------
+Una vez completado el deploy, veras:
+
+  Deploy complete!
+
+  Hosting URL: https://proyecto-tikun.web.app
+
+Abre esa URL en tu navegador.
+
+PASO 9: Crear una Cuenta y Probar
+----------------------------------
+1. Ve a https://proyecto-tikun.web.app
+2. Crea una cuenta con tu email o Google
+3. Ingresa una accion para evaluar
+4. ¡Observa el proceso a traves de las 10 Sefirot!
+
+================================================================================
+  SOLUCIÓN DE PROBLEMAS
+================================================================================
+
+Si algo falla, aqui hay soluciones rapidas:
+
+"Firebase CLI not found"
+------------------------
+npm install -g firebase-tools
+
+"Not logged in"
+---------------
+firebase login --reauth
+
+"Functions deployment failed - requires Blaze plan"
+---------------------------------------------------
+Opcion 1: Actualiza a Blaze (ver PASO 6)
+Opcion 2: Despliega solo hosting: firebase deploy --only hosting
+
+"Authentication not working"
+----------------------------
+Verifica que habilitaste Email/Password y Google en Firebase Console
+(ver PASO 5)
+
+"Cannot find module..."
+-----------------------
+cd functions
+pip install -r requirements.txt
+cd ..
+
+================================================================================
+  COMANDOS UTILES
+================================================================================
+
+Ver version de Firebase CLI:
+firebase --version
+
+Ver proyectos:
+firebase projects:list
+
+Ver configuracion:
+firebase functions:config:get
+
+Ver logs de Functions:
+firebase functions:log
+
+Abrir la app en navegador:
+firebase open hosting:site
+
+Abrir Firebase Console:
+firebase open console
+
+Re-desplegar despues de cambios:
+firebase deploy
+
+================================================================================
+  RECURSOS
+================================================================================
+
+Aplicacion: https://proyecto-tikun.web.app
+Console: https://console.firebase.google.com/project/proyecto-tikun
+Guia de Usuario: Abre GUIA_DE_USUARIO.md
+Deployment Detallado: Abre DEPLOYMENT_GUIDE.md
+Pasos Simples: Abre DEPLOYMENT_STEPS.md
+
+================================================================================
+  ¡LISTO!
+================================================================================
+
+Si completaste todos los pasos, tu aplicacion Tikun Olam esta en linea.
+
+Comparte la URL con otros: https://proyecto-tikun.web.app
+
+Para cualquier duda, revisa:
+- DEPLOYMENT_GUIDE.md (guia tecnica completa)
+- DEPLOYMENT_STEPS.md (pasos simples)
+- GUIA_DE_USUARIO.md (como usar la app)
+- MVP_SUMMARY.md (resumen del proyecto)
+
+¡Que tus acciones contribuyan a reparar el mundo! 🌳
+
+================================================================================
