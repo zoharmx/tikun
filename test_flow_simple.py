@@ -5,14 +5,18 @@ Test funcional para Windows (solo ASCII)
 
 import sys
 from pathlib import Path
-from dotenv import load_dotenv
-
-# Cargar variables de entorno
-load_dotenv()
 
 # Agregar path del proyecto
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root))
+
+# IMPORTANTE: Configurar SSL bypass ANTES de importar las Sefirot
+from src.ssl_bypass import configure_ssl_bypass
+
+from dotenv import load_dotenv
+
+# Cargar variables de entorno
+load_dotenv()
 
 from src.sefirot.keter import Keter
 from src.sefirot.chochmah_gemini import ChochmahGemini
