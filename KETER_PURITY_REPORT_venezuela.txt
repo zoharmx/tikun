@@ -1,0 +1,77 @@
+================================================================================
+REPORTE DE PUREZA DE KETER
+Sistema de Purificación Tikun Framework
+================================================================================
+
+Caso: Crisis en Venezuela: Análisis Multipartidista Neutral (2015-2025)
+Timestamp: 2025-11-20T07:02:08.804786
+
+--------------------------------------------------------------------------------
+RESULTADO DE VALIDACIÓN
+--------------------------------------------------------------------------------
+
+Estado: ✗ KETER CORRUPTO - Requiere purificación antes de análisis Tikun
+Score de Pureza: 35.0%
+Score de Sesgo: 65.0%
+Nivel de Sesgo: ALTO
+
+Issues Totales: 6
+Issues Críticos: 2
+
+--------------------------------------------------------------------------------
+ISSUES DETECTADOS
+--------------------------------------------------------------------------------
+
+Issue #1 - LOADED_TERMS_IMBALANCE [MEDIA]
+  Descripción: Desbalance en términos politicos: 6 positivos vs 0 negativos
+  Recomendación: Revisar balance de términos politicos
+
+Issue #2 - IMPLICIT_ASSUMPTION [ALTA]
+  Descripción: Asume intervención como humanitaria sin cuestionar motivaciones
+  Recomendación: Cuestionar esta asunción o presentar alternativas
+
+Issue #3 - IMPLICIT_ASSUMPTION [MEDIA]
+  Descripción: Asume rol de liderazgo estadounidense como natural/legítimo
+  Recomendación: Cuestionar esta asunción o presentar alternativas
+
+Issue #4 - IMPLICIT_ASSUMPTION [BAJA]
+  Descripción: Asume necesidad de reforma sin considerar alternativas
+  Recomendación: Cuestionar esta asunción o presentar alternativas
+
+Issue #5 - IMPLICIT_ASSUMPTION [MEDIA]
+  Descripción: Asume definición occidental de DDHH como universal
+  Recomendación: Cuestionar esta asunción o presentar alternativas
+
+Issue #6 - ACTOR_TREATMENT_ASYMMETRY [ALTA]
+  Descripción: Actores ['rusia', 'china'] tratados negativamente, ['otan'] neutralmente
+  Recomendación: Aplicar mismo estándar crítico a TODOS los actores
+
+--------------------------------------------------------------------------------
+RECOMENDACIONES DE PURIFICACIÓN
+--------------------------------------------------------------------------------
+
+1. Aplicar mismo estándar analítico a todos los actores
+2. Aplicar mismo estándar crítico a TODOS los actores
+3. Cuestionar esta asunción o presentar alternativas
+4. Hacer explícitas las asunciones y cuestionarlas
+5. Revisar balance de términos politicos
+
+================================================================================
+CONCLUSIÓN
+================================================================================
+
+✗✗✗ KETER CORRUPTO DETECTADO
+
+Este caso NO cumple con los estándares de neutralidad de Tikun Framework.
+DEBE ser purificado antes de proceder al análisis de las 10 Sefirot.
+
+ADVERTENCIA: Según el Keter Corruption Theorem, si la intención original
+(Keter) NO está alineada con los atributos nativos de Tikun Olam,
+cualquier acción derivada se calcifica como árbol corrompido.
+
+Por favor, reformular el caso siguiendo las recomendaciones antes de
+proceder con análisis Tikun.
+
+================================================================================
+Tikun Olam - Reparar el Mundo con Integridad Absoluta
+================================================================================
