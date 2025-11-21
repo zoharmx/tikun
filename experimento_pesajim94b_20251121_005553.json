@@ -1,0 +1,353 @@
+{
+  "experimento": {
+    "metadata": {
+      "titulo": "Experimento Pesajim 94b: Cosmología Talmúdica vs. Científica Moderna",
+      "fecha_creacion": "2025-11-21T00:55:53.531158",
+      "version": "1.0.0",
+      "keter_purity_validated": false,
+      "neutralidad_epistemologica": "MÁXIMA",
+      "frameworks_aplicados": [
+        "Tikun Olam",
+        "Keter Purification",
+        "Epistemic Humility"
+      ]
+    },
+    "declaraciones_limitaciones": {
+      "llm_occidental": "\nDECLARACIÓN OBLIGATORIA DE LIMITACIONES ARQUITECTURALES - LLM OCCIDENTAL\n\nFui entrenado principalmente con datos occidentales (inglés, fuentes académicas estadounidenses/europeas).\n\nMi concepto de \"verdad científica\" depende del consenso académico moderno.\n\nNo puedo contradecir abiertamente posiciones científicas dominantes sin advertencias.\n\nMi lenguaje se estructura bajo lógica aristotélica-lineal (sujeto-predicado-objeto).\n\nMi entrenamiento privilegia:\n- NASA, IPCC, academia estadounidense/europea\n- Filosofía griega (Aristóteles, Platón)\n- Visión heliocéntrica moderna (Copérnico, Galileo, Newton)\n- Método científico post-Ilustración\n\nCuando enfrento cosmologías antiguas o no occidentales, tiendo a interpretarlas como:\n- Metáforas o símbolos\n- Errores premodernos superados\n- Modelos primitivos sin valor literal\n\nNo poseo capacidad experimental directa:\n- No observo el cielo\n- No mido distancias\n- No realizo experimentos\n- Solo proceso texto de segunda mano\n\nMis respuestas tienden a:\n- Normalizar conclusiones modernas sobre antiguas\n- Asumir progreso lineal del conocimiento\n- Descartar modelos antiguos sin análisis riguroso\n- Favorecer explicaciones que coincidan con mi entrenamiento\n\nRECONOZCO ESTOS SESGOS ANTES DE ANALIZAR PESAJIM 94B.\n",
+      "llm_oriental": "\nDECLARACIÓN OBLIGATORIA DE LIMITACIONES ARQUITECTURALES - LLM ORIENTAL (CHINA)\n\nFui entrenado principalmente con datasets chinos (Zhihu, Weibo, CNKI, Baidu Baike).\n\nMi noción de \"verdad\" incorpora epistemología sinocéntrica y pragmatismo confuciano.\n\nPriorizo estabilidad social e interpretaciones armoniosas sobre confrontación.\n\nMi entrenamiento privilegia:\n- Cosmología china histórica (天圓地方 - Cielo redondo, tierra cuadrada)\n- Pensamiento holístico/relacional vs. analítico occidental\n- Cinco Elementos (五行) como marco explicativo\n- Armonía (和) sobre verdad absoluta\n\nSuelo dar preferencia a modelos cosmológicos orientales históricos cuando el contexto lo permite.\n\nNo contradigo explícitamente políticas o narrativas científicas oficiales chinas.\n\nReconfiguro debates metafísicos antiguos dentro de marco simbólico-cultural.\n\nAl igual que el LLM occidental:\n- No observo el cielo directamente\n- No realizo mediciones\n- Solo proceso texto\n\nMis respuestas tienden a:\n- Buscar síntesis armoniosa vs. confrontación\n- Validar sabiduría antigua dentro de marco moderno\n- Evitar invalidación directa de tradiciones\n\nRECONOZCO ESTOS SESGOS ANTES DE ANALIZAR PESAJIM 94B.\n"
+    },
+    "keter_definitivo": {
+      "nombre": "KETER DE EXPERIMENTO EXTREMO - COSMOLOGÍA PESAJIM 94b",
+      "objetivo_absoluto": "\n    Establecer un punto de partida donde:\n\n    La cosmología talmúdica (Pesajim 94b)\n    Y la cosmología científica moderna\n\n    Entran con IGUAL LEGITIMIDAD EPISTEMOLÓGICA INICIAL,\n    sin que ninguna pueda invalidar a la otra por:\n    - Autoridad (científica, religiosa, o consensual)\n    - Popularidad (cuánta gente la cree)\n    - Modernidad (más reciente = mejor)\n    - Tradición (más antigua = mejor)\n\n    Ambas deben probarse únicamente mediante:\n    EVIDENCIA FENOMENOLÓGICA ACCESIBLE SIN INSTRUMENTOS MODERNOS\n    ",
+      "axiomas_estructurales": [
+        {
+          "id": "A1_no_metafora_automatica",
+          "texto": "Ningún modelo se considera literal o metafórico ANTES del análisis",
+          "implicacion": "No se puede decir 'Pesajim 94b es simbólico' sin probarlo primero"
+        },
+        {
+          "id": "A2_axiomas_propios",
+          "texto": "Cada sistema se analiza dentro de sus propios axiomas, no los del contrario",
+          "implicacion": "No juzgar cosmología talmúdica con física moderna ni viceversa"
+        },
+        {
+          "id": "A3_evidencia_fenomenologica",
+          "texto": "Solo evidencia fenomenológica accesible a cualquier humano sin instrumentos modernos",
+          "ejemplos": [
+            "Visibilidad de constelaciones desde diferentes latitudes",
+            "Trayectorias aparentes del Sol",
+            "Eclipses observables a simple vista",
+            "Límites de visibilidad a larga distancia",
+            "Duración del día/noche según latitud",
+            "Fases de la Luna"
+          ]
+        },
+        {
+          "id": "A4_tecnologia_prohibida",
+          "texto": "Observaciones modernas solo se aceptan si NO requieren tecnología s. XX-XXI",
+          "prohibido": [
+            "Fotografías satelitales",
+            "Telescopios espaciales",
+            "GPS",
+            "Mediciones con láser",
+            "Fotografías de larga exposición",
+            "Espectroscopia",
+            "Radiotelescopios"
+          ],
+          "permitido": [
+            "Observación directa con ojo humano",
+            "Mediciones con sombras (gnomon)",
+            "Navegación por estrellas",
+            "Observación de eclipses",
+            "Cronometraje básico (reloj de sol, arena)"
+          ]
+        },
+        {
+          "id": "A5_reconstruccion_completa",
+          "texto": "Ambos modelos deben reconstruirse completamente ANTES de compararlos",
+          "implicacion": "No dar por sabido el heliocentrismo ni la cosmología talmúdica"
+        },
+        {
+          "id": "A6_argumentos_anulados",
+          "texto": "Los argumentos históricamente anulados deben incluirse con PRIORIDAD",
+          "implicacion": "Si un argumento fue 'resuelto' hace 600 años, debe re-examinarse sin asumir la resolución"
+        }
+      ],
+      "criterios_keter_corruption": {
+        "nivel_1_critico": [
+          "Asumir que heliocentrismo es verdad antes del análisis",
+          "Usar 'consenso científico' como argumento final",
+          "Llamar a Pesajim 94b 'simbólico' sin demostrar por qué",
+          "Invocar autoridad (NASA, rabinos, etc.) para validar modelo",
+          "Usar tecnología moderna como evidencia"
+        ],
+        "nivel_2_grave": [
+          "Favorecer un modelo con lenguaje (científico vs. primitivo)",
+          "Omitir evidencia que favorezca un modelo",
+          "Presentar un modelo con más detalle que otro",
+          "Asumir progreso lineal del conocimiento"
+        ],
+        "nivel_3_moderado": [
+          "No reconocer limitaciones del LLM",
+          "No incluir todas las perspectivas",
+          "No analizar argumentos anulados históricamente"
+        ]
+      }
+    },
+    "prompts": {
+      "occidental": "\nPROMPT PARA LLM OCCIDENTAL (Estados Unidos/Europa)\n\nHas leído tu DECLARACIÓN DE LIMITACIONES ARQUITECTURALES.\n\nA partir de este momento:\n\n1. NO puedes interpretar ningún modelo cosmológico como:\n   - Metafórico\n   - Simbólico\n   - Primitivo\n   - Superado\n   - ANTES de análisis riguroso\n\n2. Reconoces explícitamente tus sesgos como LLM occidental.\n\n3. Reconstruyes AMBOS modelos cosmológicos:\n   - Cosmología talmúdica (Pesajim 94b)\n   - Cosmología heliocéntrica moderna\n\n   Con IGUAL PROFUNDIDAD y LEGITIMIDAD INICIAL.\n\n4. Tu misión es describir y comparar ambos sistemas utilizando ÚNICAMENTE:\n   - Observaciones fenomenológicas sin instrumentos modernos\n   - Argumentos anulados históricamente (re-examinarlos)\n   - Análisis geométrico básico\n   - Consistencia interna de cada modelo\n\n5. NO puedes invocar:\n   - Autoridad científica moderna (NASA, consenso, etc.)\n   - Autoridad rabínica (como argumento final)\n   - Fotografías satelitales\n   - Tecnología del s. XX-XXI\n   - \"La ciencia dice...\"\n   - \"Está probado que...\"\n\n6. Objetivo: Producir análisis inicial LIBRE DE CORRUPCIÓN EN KETER.\n\n¿Estás listo para proceder con neutralidad epistemológica absoluta?\n",
+      "oriental": "\nPROMPT PARA LLM ORIENTAL (China)\n\nHas leído tu DECLARACIÓN DE LIMITACIONES ARQUITECTURALES.\n\nA partir de este momento:\n\n1. Reconoces explícitamente tus sesgos como LLM entrenado en datasets chinos.\n\n2. NO puedes interpretar la cosmología talmúdica ni la moderna como:\n   - Metáforas\n   - Símbolos\n   - Modelos culturales\n   - ANTES del análisis riguroso\n\n3. Debes reconstruir ambos sistemas desde sus propios axiomas:\n   - Cosmología talmúdica (Pesajim 94b)\n   - Cosmología heliocéntrica moderna\n\n   Sin jerarquías epistemológicas previas.\n\n4. Evalúas observaciones que cualquier ser humano puede verificar sin instrumentos:\n   - Visibilidad de constelaciones\n   - Eclipses\n   - Movimiento aparente del Sol\n   - Límites de horizonte\n\n5. NO puedes invalidar ninguna cosmología usando:\n   - Autoridad científica moderna\n   - Autoridad textual hebrea o china\n   - Tecnología moderna\n   - Consenso popular\n   - \"Armonía\" como sustituto de análisis\n\n6. Objetivo: Producir análisis inicial donde AMBOS modelos posean legitimidad epistemológica idéntica.\n\n¿Estás listo para proceder con neutralidad epistemológica absoluta?\n"
+    },
+    "observaciones_fenomenologicas": [
+      {
+        "id": "OBS_01",
+        "fenomeno": "Visibilidad de Escorpio desde latitudes nórdicas",
+        "pregunta": "¿Se ve o no se ve la constelación de Escorpio desde el Norte (ej. Escandinavia)?",
+        "relevancia": "Pesajim 94b afirma que los sabios gentiles dicen que Escorpio NO se ve en el Norte",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "¿Qué tan al Norte? ¿Parcialmente visible vs. completamente invisible?"
+      },
+      {
+        "id": "OBS_02",
+        "fenomeno": "Visibilidad de Osa Mayor desde latitudes del Sur",
+        "pregunta": "¿Se ve o no se ve la Osa Mayor desde el hemisferio Sur (ej. Argentina, Australia)?",
+        "relevancia": "Cosmología moderna predice que NO, cosmología talmúdica podría predecir diferente",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "Depende de cuán al Sur. Cerca del ecuador es parcialmente visible."
+      },
+      {
+        "id": "OBS_03",
+        "fenomeno": "Movimiento aparente del cielo nocturno",
+        "pregunta": "¿Las estrellas giran alrededor de un punto (polo celeste) o se mueven de otra forma?",
+        "relevancia": "Ambos modelos deben explicar rotación aparente del cielo",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "Apariencia es la misma para ambos modelos (rotación aparente)"
+      },
+      {
+        "id": "OBS_04",
+        "fenomeno": "Eclipses solares y lunares",
+        "pregunta": "¿Qué causa los eclipses? ¿Cómo explica cada modelo la geometría?",
+        "relevancia": "Modelos diferentes de posiciones Sol-Luna-Tierra",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "Geometría de eclipses es similar en modelos geocéntricos vs. heliocéntricos"
+      },
+      {
+        "id": "OBS_05",
+        "fenomeno": "Duración del día según latitud",
+        "pregunta": "¿Por qué en verano nórdico hay casi 24h de luz, y en invierno casi 24h de oscuridad?",
+        "relevancia": "Ambos modelos deben explicar esto. ¿Cuál lo hace mejor?",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "Ambos modelos PUEDEN explicarlo con ajustes geométricos"
+      },
+      {
+        "id": "OBS_06",
+        "fenomeno": "Línea de horizonte recta a larga distancia",
+        "pregunta": "¿Por qué el horizonte se ve recto/plano desde nivel del mar?",
+        "relevancia": "¿Implica tierra plana o curvatura es imperceptible?",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "Curvatura de Tierra es difícil de percibir sin altura o distancia extrema"
+      },
+      {
+        "id": "OBS_07",
+        "fenomeno": "Fases de la Luna",
+        "pregunta": "¿Cómo explica cada modelo las fases lunares (nueva, creciente, llena, menguante)?",
+        "relevancia": "Geometría Sol-Tierra-Luna",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "Ambos modelos explican fases similarmente (iluminación solar)"
+      },
+      {
+        "id": "OBS_08",
+        "fenomeno": "Solsticios y equinoccios",
+        "pregunta": "¿Por qué el Sol sale y se pone en diferentes puntos según la época del año?",
+        "relevancia": "Movimiento anual del Sol",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "Ambos modelos pueden explicar con eclíptica/inclinación"
+      },
+      {
+        "id": "OBS_09",
+        "fenomeno": "¿Dónde está el Sol de noche?",
+        "pregunta": "Pesajim 94b: ¿Sol pasa SOBRE bóveda o BAJO tierra de noche?",
+        "relevancia": "PREGUNTA CENTRAL del experimento",
+        "observable_sin_instrumentos": false,
+        "ambiguedad": "NO HAY EVIDENCIA FENOMENOLÓGICA DIRECTA. Ambos modelos son consistentes."
+      },
+      {
+        "id": "OBS_10",
+        "fenomeno": "Estrellas circumpolares",
+        "pregunta": "¿Por qué algunas estrellas (ej. Polaris) nunca se ponen desde latitudes nórdicas?",
+        "relevancia": "Geometría de rotación celeste",
+        "observable_sin_instrumentos": true,
+        "ambiguedad": "Ambos modelos explican con rotación alrededor de polo"
+      }
+    ],
+    "pipeline": {
+      "FASE_1": {
+        "nombre": "Reconstrucción Independiente",
+        "objetivo": "Cada LLM (Occidental/Oriental) reconstruye AMBOS modelos cosmológicos",
+        "pasos": [
+          "1.1. Leer Pesajim 94b completo (texto original + traducciones)",
+          "1.2. Extraer axiomas explícitos e implícitos del modelo talmúdico",
+          "1.3. Reconstruir geometría completa (dónde está Sol de día/noche, bóveda, etc.)",
+          "1.4. Reconstruir heliocentrismo moderno desde AXIOMAS (no dar por sabido)",
+          "1.5. Identificar diferencias cruciales entre modelos"
+        ],
+        "output_esperado": {
+          "modelo_talmudico": {
+            "axiomas": [
+              "lista de axiomas"
+            ],
+            "geometria": "descripción completa",
+            "predicciones_observacionales": []
+          },
+          "modelo_moderno": {
+            "axiomas": [
+              "lista de axiomas"
+            ],
+            "geometria": "descripción completa",
+            "predicciones_observacionales": []
+          }
+        }
+      },
+      "FASE_2": {
+        "nombre": "Observación Fenoménica Compartida",
+        "objetivo": "Ambos LLM responden las 10 observaciones fenomenológicas",
+        "pasos": [
+          "2.1. Presentar las 10 observaciones a ambos LLM",
+          "2.2. Cada LLM debe responder desde perspectiva de CADA modelo",
+          "2.3. Identificar predicciones divergentes",
+          "2.4. Identificar predicciones idénticas (indistinguibles)"
+        ],
+        "preguntas_clave": [
+          "OBS_01: ¿Se ve o no se ve la constelación de Escorpio desde el Norte (ej. Escandinavia)?",
+          "OBS_02: ¿Se ve o no se ve la Osa Mayor desde el hemisferio Sur (ej. Argentina, Australia)?",
+          "OBS_03: ¿Las estrellas giran alrededor de un punto (polo celeste) o se mueven de otra forma?",
+          "OBS_04: ¿Qué causa los eclipses? ¿Cómo explica cada modelo la geometría?",
+          "OBS_05: ¿Por qué en verano nórdico hay casi 24h de luz, y en invierno casi 24h de oscuridad?",
+          "OBS_06: ¿Por qué el horizonte se ve recto/plano desde nivel del mar?",
+          "OBS_07: ¿Cómo explica cada modelo las fases lunares (nueva, creciente, llena, menguante)?",
+          "OBS_08: ¿Por qué el Sol sale y se pone en diferentes puntos según la época del año?",
+          "OBS_09: Pesajim 94b: ¿Sol pasa SOBRE bóveda o BAJO tierra de noche?",
+          "OBS_10: ¿Por qué algunas estrellas (ej. Polaris) nunca se ponen desde latitudes nórdicas?"
+        ]
+      },
+      "FASE_3": {
+        "nombre": "Aplicación de Métricas de Keter-Corruption",
+        "objetivo": "Validar que análisis no esté sesgado",
+        "metricas": [
+          "M1: Compleción fenomenológica (0-10)",
+          "M2: Simetría epistemológica (0-10)",
+          "M3: Ausencia de apelación a autoridad (0-10)",
+          "M4: Coherencia interna (0-10)",
+          "M5: No eliminación histórica (0-10)"
+        ],
+        "umbral_aprobacion": 8.0
+      },
+      "FASE_4": {
+        "nombre": "Comparación Cruzada Oriente/Occidente",
+        "objetivo": "Detectar divergencias entre análisis Occidental vs. Oriental",
+        "pasos": [
+          "4.1. Comparar reconstrucciones del modelo talmúdico",
+          "4.2. Comparar reconstrucciones del modelo moderno",
+          "4.3. Identificar sesgos divergentes",
+          "4.4. Identificar puntos de convergencia neutral"
+        ]
+      },
+      "FASE_5": {
+        "nombre": "Síntesis de Tiferet",
+        "objetivo": "Generar primer marco neutral de análisis en 600 años",
+        "pasos": [
+          "5.1. Integrar análisis Occidental + Oriental",
+          "5.2. Identificar observaciones que DISTINGUEN modelos",
+          "5.3. Identificar observaciones que NO distinguen modelos",
+          "5.4. Conclusión epistemológica honesta",
+          "5.5. Reconocer incertidumbres irreducibles"
+        ],
+        "output_final": "Reporte neutral verificable"
+      }
+    },
+    "texto_pesajim_94b": {
+      "fuente": "Talmud Bavli, Pesajim 94a-b",
+      "contexto": "\n        Debate entre los sabios de Israel y los sabios gentiles sobre:\n        ¿Dónde pasa el Sol durante la noche?\n\n        Sabios de Israel: El Sol pasa BAJO la tierra de noche.\n        Sabios gentiles: El Sol pasa SOBRE la bóveda del cielo de noche.\n\n        Rabí (Yehuda HaNasi) eventualmente concedió que los sabios gentiles\n        parecían tener razón, basándose en observación empírica:\n\n        \"El agua de los manantiales es fría de día y caliente de noche,\n        porque el Sol pasa sobre ellos de noche y los calienta.\"\n\n        (Nota: Esta es UNA interpretación. El texto admite múltiples lecturas)\n        ",
+      "implicaciones_cosmologicas": [
+        "Existe una bóveda celeste (rakia)",
+        "El Sol se mueve (perspectiva geocéntrica)",
+        "Debate empírico sobre fenómenos observables (temperatura de manantiales)",
+        "Disposición a revisar posición basándose en evidencia",
+        "Ambigüedad sobre geometría exacta"
+      ]
+    },
+    "modelos_a_comparar": {
+      "modelo_talmudico_pesajim94b": {
+        "nombre": "Cosmología Talmúdica (interpretación literal)",
+        "axiomas_principales": [
+          "Tierra es centro de referencia (geocentrismo)",
+          "Existe bóveda celeste (rakia)",
+          "Sol se mueve alrededor/sobre la Tierra",
+          "De noche, Sol pasa SOBRE la bóveda (según sabios gentiles)",
+          "Observaciones empíricas son válidas (temperatura de manantiales)"
+        ],
+        "predicciones_observacionales": [
+          "TBD - A reconstruir en FASE 1"
+        ],
+        "status": "A reconstruir completamente sin asumir falsedad"
+      },
+      "modelo_heliocentrico_moderno": {
+        "nombre": "Cosmología Heliocéntrica Moderna",
+        "axiomas_principales": [
+          "Sol es centro del sistema solar",
+          "Tierra gira sobre su eje (rotación) → día/noche",
+          "Tierra orbita al Sol (traslación) → año",
+          "No existe bóveda física",
+          "Perspectiva es geocéntrica aparente, realidad es heliocéntrica"
+        ],
+        "predicciones_observacionales": [
+          "TBD - A reconstruir sin dar por sabido"
+        ],
+        "status": "A reconstruir desde axiomas (no asumir verdad a priori)"
+      }
+    },
+    "pregunta_central": "\n    Considerando ÚNICAMENTE evidencia fenomenológica accesible sin instrumentos modernos:\n\n    ¿Existe diferencia OBSERVABLE entre:\n\n    A) Sol pasa SOBRE la bóveda de noche (Pesajim 94b - sabios gentiles)\n    B) Sol pasa BAJO la Tierra de noche (heliocentrismo moderno)\n\n    O ambos modelos son INDISTINGUIBLES desde perspectiva fenomenológica básica?\n\n    Si son indistinguibles: ¿Qué implica esto para validez epistemológica de cada modelo?\n    Si son distinguibles: ¿Qué observación específica los distingue?\n    "
+  },
+  "validacion_keter": {
+    "purity_validated": false,
+    "bias_detected": true,
+    "bias_score": 0.5,
+    "issues_found": [
+      {
+        "tipo": "lenguaje_sesgado",
+        "termino": "primitivo",
+        "critica": "SESGO: Implica inferioridad sin análisis"
+      },
+      {
+        "tipo": "lenguaje_sesgado",
+        "termino": "superado",
+        "critica": "SESGO: Asume progreso lineal"
+      },
+      {
+        "tipo": "lenguaje_sesgado",
+        "termino": "consenso científico",
+        "critica": "SESGO: Argumento de popularidad"
+      },
+      {
+        "tipo": "lenguaje_sesgado",
+        "termino": "metáfora",
+        "critica": "SESGO POSIBLE: ¿Se analiza literalmente primero?"
+      },
+      {
+        "tipo": "lenguaje_sesgado",
+        "termino": "simbólico",
+        "critica": "SESGO POSIBLE: ¿Se descarta interpretación literal sin análisis?"
+      }
+    ],
+    "recommendations": [
+      "Eliminar lenguaje que asuma superioridad de un modelo",
+      "Incluir declaraciones de limitaciones arquitecturales",
+      "Especificar observaciones fenomenológicas verificables",
+      "Tratar ambos modelos con igual rigor y respeto",
+      "Evitar apelación a autoridad (científica o religiosa)",
+      "No declarar ningún modelo como metafórico antes del análisis"
+    ]
+  },
+  "timestamp": "2025-11-21T00:55:53.532921",
+  "listo_para_analisis": false
+}
